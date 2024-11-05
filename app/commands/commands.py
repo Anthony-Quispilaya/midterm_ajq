@@ -1,4 +1,3 @@
-# app/commands/commands.py
 from abc import ABC, abstractmethod
 
 class Command(ABC):

@@ -10,11 +10,11 @@ class Calculator:
             while True:
                 # Prompt for the command name
                 command_name = input("Enter command 'exit' or 'quit' to quit: ").strip().lower()
-                
+
                 if command_name in ['exit', 'quit']:
                     print("Terminating...")
                     break
-                    
+
                 # Prompt for history command
                 if command_name == "history":
                     self.history_manager.show_history()
