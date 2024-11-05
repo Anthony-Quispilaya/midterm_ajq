@@ -12,8 +12,16 @@ class HistoryManager:
 
     def add_record(self, operation, operand1, operand2, result):
         """Add a calculation record to the history and save it to the file."""
-        new_record = {"Operation": operation, "Operand1": operand1, "Operand2": operand2, "Result": result}
-        self.history = self.history.append(new_record, ignore_index=True)
+        new_record = pd.DataFrame([{
+            "Operation": operation, 
+            "Operand1": operand1, 
+            "Operand2": operand2, 
+            "Result": result
+        }])
+        
+        # Use pd.concat instead of append to avoid the FutureWarning
+        self.history = pd.concat([self.history, new_record], ignore_index=True)
+        
         # Save the history to the CSV file each time a new record is added
         self.history.to_csv(self.file_path, index=False)
 
