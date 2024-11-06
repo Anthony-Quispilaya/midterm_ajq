@@ -1,0 +1,35 @@
+2024-11-06 15:08:55 - INFO - Starting Calculator Application
+2024-11-06 15:08:55 - DEBUG - Initializing PluginManager with package 'app.plugins'
+2024-11-06 15:08:55 - DEBUG - Registered command 'add'
+2024-11-06 15:08:55 - INFO - Loaded plugin: add
+2024-11-06 15:08:55 - DEBUG - Registered command 'divide'
+2024-11-06 15:08:55 - INFO - Loaded plugin: divide
+2024-11-06 15:08:55 - DEBUG - Registered command 'multiply'
+2024-11-06 15:08:55 - INFO - Loaded plugin: multiply
+2024-11-06 15:08:55 - INFO - Loaded plugin: plugin_manager
+2024-11-06 15:08:55 - DEBUG - Registered command 'subtract'
+2024-11-06 15:08:55 - INFO - Loaded plugin: subtract
+2024-11-06 15:08:55 - DEBUG - Initializing HistoryManager with file 'temp_history.csv'
+2024-11-06 15:08:55 - INFO - No history file found. Initialized empty history.
+2024-11-06 15:09:10 - INFO - Calculator Application Exiting
+2024-11-06 15:09:10 - INFO - Application cleanup complete. Exiting.
+2024-11-06 15:09:10 - INFO - Calculator Application Stopped
+2024-11-06 15:11:02 - INFO - Starting Calculator Application
+2024-11-06 15:11:02 - DEBUG - Initializing PluginManager with package 'app.plugins'
+2024-11-06 15:11:02 - DEBUG - Registered command 'add'
+2024-11-06 15:11:02 - INFO - Loaded plugin: add
+2024-11-06 15:11:02 - DEBUG - Registered command 'divide'
+2024-11-06 15:11:02 - INFO - Loaded plugin: divide
+2024-11-06 15:11:02 - DEBUG - Registered command 'multiply'
+2024-11-06 15:11:02 - INFO - Loaded plugin: multiply
+2024-11-06 15:11:02 - INFO - Loaded plugin: plugin_manager
+2024-11-06 15:11:02 - DEBUG - Registered command 'subtract'
+2024-11-06 15:11:02 - INFO - Loaded plugin: subtract
+2024-11-06 15:11:02 - DEBUG - Initializing HistoryManager with file 'temp_history.csv'
+2024-11-06 15:11:02 - INFO - No history file found. Initialized empty history.
+2024-11-06 15:11:08 - DEBUG - Executing command 'add' with args [3.0, 4.0]
+2024-11-06 15:11:08 - DEBUG - Added record: add(3.0, 4.0) = 7.0
+2024-11-06 15:11:15 - INFO - Calculator Application Exiting
+2024-11-06 15:11:15 - INFO - Temporary history file deleted.
+2024-11-06 15:11:15 - INFO - Application cleanup complete. Exiting.
+2024-11-06 15:11:15 - INFO - Calculator Application Stopped
